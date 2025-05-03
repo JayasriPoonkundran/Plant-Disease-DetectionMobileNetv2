@@ -1,0 +1,27 @@
+# Precision Agriculture: AI for Plant Disease Detection 🌿🤖
+
+This project leverages deep learning to detect plant diseases from leaf images using MobileNetV2. It is designed to assist farmers and agricultural experts in early disease diagnosis, promoting sustainable and precision agriculture.
+
+## 📁 Dataset
+- **Source**: [New Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset)
+- Contains healthy and diseased leaf images of various crops.
+
+## 🧠 Model
+- **Architecture**: MobileNetV2
+- **Framework**: TensorFlow / Keras
+- **Preprocessing**: Image resizing, normalization, and data augmentation
+
+## 📊 Results
+- Accuracy : 0.7073643207550049
+- Loss : 0.9519802927970886
+
+## 🔧 How to Run
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/your-username/plant-disease-detection.git
+   cd plant-disease-detection
+
+2. pip install -r requirements.txt
+
+3. Run the notebook:
+     Open plant_disease_detection.ipynb VS Code.
